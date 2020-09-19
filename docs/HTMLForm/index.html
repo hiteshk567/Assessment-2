@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/274c72e3a5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="index.html" onsubmit="myFunction()">
+        <table>
+          <tr>
+            <td>
+              <p>Full Name</p>
+            </td>
+            <td class="group">
+              <label for="full_name"><i class="fas fa-user"></i></label>
+              <input
+                id="full_name"
+                type="text"
+                placeholder="Full Name"
+                name="full_name"
+                value=""
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Address Line 1</p>
+            </td>
+            <td class="group">
+              <label for="address_line1"
+                ><i class="far fa-address-book"></i
+              ></label>
+              <input
+                id="address_line1"
+                type="text"
+                placeholder="Address Line 1"
+                name="address1"
+                value=""
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><p>Address Line 2</p></td>
+            <td class="group">
+              <label for="Address Line 2"
+                ><i class="far fa-address-book"></i
+              ></label>
+              <input
+                id="Address Line 2"
+                type="text"
+                placeholder="Address Line 2"
+                name="address2"
+                value=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><p>City</p></td>
+            <td class="group">
+              <label for="City"><i class="far fa-building"></i></label>
+              <input
+                id="City"
+                type="text"
+                placeholder="City"
+                name="City"
+                value=""
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><p>State/Province/Region</p></td>
+            <td class="group">
+              <label for="state"><i class="fas fa-map-marker-alt"></i></label>
+              <input
+                id="state"
+                type="text"
+                placeholder="State/Province/Region"
+                name="state"
+                value=""
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><p>Postal Code/ZIP</p></td>
+            <td class="group">
+              <label for="postal"><i class="far fa-envelope-open"></i></label>
+              <input
+                id="postal"
+                type="text"
+                placeholder="Postal Code/ZIP"
+                name="postal"
+                value=""
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><p>Country</p></td>
+            <td class="group">
+              <label for="Country"><i class="fas fa-flag"></i></label>
+              <select name="country" id="Country" required>
+                <option value="01">Afghanistan</option>
+                <option value="02">Bangladesh</option>
+                <option value="03">India</option>
+                <option value="04">Sri Lanka</option>
+                <option value="05">Korea</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><p>Email</p></td>
+            <td class="group">
+              <label for="Email"><i class="fas fa-user"></i></label>
+              <input
+                id="Email"
+                type="email"
+                placeholder="Email"
+                name="email"
+                value=""
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><p>Phone Number</p></td>
+            <td class="group">
+              <label for="phone"><i class="fas fa-user"></i></label>
+              <input
+                id="phone"
+                type="number"
+                placeholder="Phone Number"
+                name="phone"
+                value=""
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="btn">
+              <button type="submit">Submit</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <script>
+      function myFunction() {
+        alert("Thanks");
+      }
+    </script>
+  </body>
+</html>

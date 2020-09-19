@@ -1,0 +1,77 @@
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: rgb(224, 236, 241);
+    padding-left: 40px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 50%;
+}
+
+i {
+    height: 22px;
+    padding: 5px;
+}
+
+input {
+    width: 90%;
+    height: 22px;
+}
+
+select {
+    width: 90%;
+    height: 22px;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 0 47%;
+    height: 24px;
+}
+
+.group {
+    box-shadow: 1px 1px 1px grey;
+    margin: 2px 0;
+}
+
+@media screen and (max-width: 1100px) {
+    p {
+        font-size: 0.9rem;
+    }
+
+    .group,
+    input {
+        width: 70%;
+    }
+
+    select {
+        width: 75%;
+    }
+
+    .container {
+        width: 90%;
+        padding: 10px;
+        margin: 5px;
+    }
+
+}
+
+@media (min-width: 1100px) and (max-width: 1300px) {
+
+    .group,
+    input {
+        width: 70%;
+    }
+
+    select {
+        width: 75%;
+    }
+}
